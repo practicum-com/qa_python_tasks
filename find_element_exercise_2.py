@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 
 driver = webdriver.Chrome()
 
-driver.get("https://qa-mesto.praktikum-services.ru/")
+driver.get("https://around.en.practicum-services.com/")
 
 # Найди все элементы
 elements = driver...

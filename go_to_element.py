@@ -4,7 +4,7 @@ from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 
 driver = webdriver.Chrome()
-driver.get("https://qa-mesto.praktikum-services.ru/")
+driver.get("https://around.en.practicum-services.com/")
 
 # Найди поле "Email" и заполни его
 ...
@@ -24,7 +24,7 @@ element = ...
 # Прокрути страницу до футера
 driver.execute_script(...)
 
-# Проверь, что футер содержит текст 'Mesto Russia'
+# Проверь, что футер содержит текст 'Around'
 assert ...
 
 driver.quit()

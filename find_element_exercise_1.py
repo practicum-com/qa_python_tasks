@@ -3,7 +3,7 @@ from selenium import webdriver
 
 driver = webdriver.Chrome()
 
-driver.get("https://qa-mesto.praktikum-services.ru/")
+driver.get("https://around.en.practicum-services.com/")
 
 # найди заголовок
 driver...
