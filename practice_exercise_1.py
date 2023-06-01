@@ -6,25 +6,25 @@ from selenium.webdriver.support.wait import WebDriverWait
 driver = webdriver.Chrome()
 driver.get("https://around-v1.en.practicum-services.com/")
 
-# Выполни авторизацию
+# Log in
 ...
 
-# Добавь явное ожидание загрузки страницы
+# Add an explicit wait for the feed to load
 ...
 
-# Кликни по изображению профиля
+# Click on the profile picture
 driver.find_element(...)...
 
-# В поле ссылки на изображение введи ссылку, используй переменную avatar_url
+# Insert the link to the picture in the Link field, using the avatar_url variable
 avatar_url = "https://code.s3.yandex.net/qa-automation-engineer/python/files/avatarSelenium.png"
 driver.find_element(...)....
 
-# Сохрани новое изображение
+# Save the new picture
 driver.find_element(...)...
 
-# Запиши в переменную style значение атрибута style для элемента с изображением профиля
+# Save the value of the style attribute for the profile picture element to the style variable
 style = driver.find_element(...)...
-# Проверь, что в style содержится ссылка на аватар
+# Check that style contains the link to the profile picture
 assert ...
 
 driver.quit()
