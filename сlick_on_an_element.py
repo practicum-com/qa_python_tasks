@@ -5,7 +5,7 @@ driver = webdriver.Chrome()
 
 driver.get("https://around-v1.en.practicum-services.com/")
 
-# Найди кнопку и кликни по ней
+# Find the button and click on it
 driver.find_element(...)...
 
 driver.quit()
