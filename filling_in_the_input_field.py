@@ -6,19 +6,19 @@ from selenium.webdriver.support.wait import WebDriverWait
 driver = webdriver.Chrome()
 driver.get("https://around-v1.en.practicum-services.com/")
 
-# Найди поле "Email" и заполни его
+# Find the Email field and fill it in
 driver.find_element(...)...
 
-# Найди поле "Пароль" и заполни его
+# Find the Password field and fill it in
 driver.find_element(...)...
 
-# Найди кнопку "Войти" и кликни по ней
+# Find the Login button and click on it
 driver.find_element(...)...
 
-# Добавь явное ожидание для загрузки страницы
+# Add an explicit wait for the page to load
 WebDriverWait(driver, 3)...
 
-# Проверь, что текущий url равен 'https://around-v1.en.practicum-services.com/'
+# Check that the current URL is 'https://around-v1.en.practicum-services.com/'
 ...
 
 driver.quit()
