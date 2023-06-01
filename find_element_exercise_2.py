@@ -5,11 +5,11 @@ driver = webdriver.Chrome()
 
 driver.get("https://around-v1.en.practicum-services.com/")
 
-# Найди все элементы
+# Find all elements
 elements = driver...
 
-# Проверь, что количество найденных элементов больше одного. Для этого используй метод len()
+# Check that the number of elements found is greater than 1 by using len()
 ...
 
-# Закрой браузер
+# Close the browser
 driver...
