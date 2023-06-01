@@ -6,13 +6,13 @@ from selenium.webdriver.support import expected_conditions
 driver = webdriver.Chrome()
 driver.get("https://around-v1.en.practicum-services.com/")
 
-# Выполни авторизацию
+# Log in
 ...
 
-# Добавь явное ожидание для загрузки списка карточек контента
+# Add an explicit wait for the feed to load
 ...
 
-# Найди карточку контента и сделай скролл до неё
+# Find the card and scroll it into view
 ...
 
 driver.quit()
