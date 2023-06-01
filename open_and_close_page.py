@@ -3,11 +3,11 @@ from selenium import webdriver
 driver = webdriver.Chrome()
 driver.maximize_window()
 
-# Открой страницу тестового стенда
+# Open the test stand page
 driver...
 
-# Проверь, что в url добавился /signin
+# Check that /signin was added to the URL
 assert ...
 
-# Закрой браузер
+# Close the browser
 driver...
