@@ -8,45 +8,45 @@ from selenium.webdriver.support.wait import WebDriverWait
 driver = webdriver.Chrome()
 driver.get("https://around-v1.en.practicum-services.com/")
 
-# Выполни авторизацию
+# Log in
 ...
 
-# Добавь явное ожидание для загрузки списка карточек контента
+# Add an explicit wait for the page to load
 ...
 
-# Запомни title последней карточки
+# Save the title of the most recent card
 title_before = ...
 
-# Кликни по кнопке добавления нового контента
+# Click on the button that posts a new card
 driver.find_element(...)...
 
-# сгенерируй новое место и введи его в поле названия
+# Generate the new name of the place and enter it in the Name field
 new_title = ...
 driver.find_element(...)...
 
-# В поле ссылки на изображение введи ссылку
+# Insert link to the picture in the Link field
 driver.find_element(...)...
 
-# Сохрани контент
+# Save the data
 driver.find_element(...)...
 
-# Дождись появления кнопки удаления карточки
+# Wait for the Delete button to appear
 WebDriverWait(...).until(...)
 
-# Проверь, что на карточке отображается верное название
+# Check that the card has the correct title
 title_after = ...
 assert ...
 
-# Запомни количество карточек до удаления
+# Save the number of cards before deleting
 cards_before = len(...)
 
-# Удали карточку
+# Delete the card
 driver.find_element(...)...
 
-# Дождись, что title последней карточки равен title_before
+# Wait for the title of the most recent card to become equal to title_before
 WebDriverWait(...).until(...)
 
-# Проверь, что количество карточек стало на одну меньше
+# Check that there is one less card now 
 cards_after = len(...)
 assert ...
 
