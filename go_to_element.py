@@ -6,25 +6,25 @@ from selenium.webdriver.support.wait import WebDriverWait
 driver = webdriver.Chrome()
 driver.get("https://around-v1.en.practicum-services.com/")
 
-# Найди поле "Email" и заполни его
+# Find the Email field and fill it in
 ...
 
-# Найди поле "Пароль" и заполни его
+# Find the Password field and fill it in
 ...
 
-# Найди кнопку "Войти" и кликни по ней
+# Find the Login button and click on it
 ...
 
-# Добавь явное ожидание для загрузки страницы
+# Add an explicit wait for the page to load
 ...
 
-# Найди футер
+# Find the footer
 element = ...
 
-# Прокрути страницу до футера
+# Scroll the footer into view
 driver.execute_script(...)
 
-# Проверь, что футер содержит текст 'Around'
+# Check that the footer contains the string 'Around'
 assert ...
 
 driver.quit()
