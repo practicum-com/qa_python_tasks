@@ -5,13 +5,13 @@ driver = webdriver.Chrome()
 
 driver.get("https://around-v1.en.practicum-services.com/")
 
-# Найди элементы
+# Find elements
 email = driver...
 password = driver...
 
-# Проверь атрибут placeholder для каждого элемента
+# Test the placeholder attribute for each element
 assert ...
 assert ...
 
-# Закрой браузер
+# Close the browser
 driver...
