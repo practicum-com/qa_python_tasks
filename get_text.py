@@ -6,19 +6,19 @@ from selenium.webdriver.support.wait import WebDriverWait
 driver = webdriver.Chrome()
 driver.get("https://around-v1.en.practicum-services.com/")
 
-# Найди поле "Email" и заполни его
+# Find the Email field and fill it in
 ...
 
-# Найди поле "Пароль" и заполни его
+# Find the Password field and fill it in
 ...
 
-# Найди кнопку "Войти" и кликни по ней
+# Find the Login button and click on it
 ...
 
-# Добавь явное ожидание для загрузки страницы
+# Add an explicit wait for the page to load
 WebDriverWait(...).until(...)
 
-# Найди кнопку, получи её текст и проверь, что он равен 'Выйти'
+# Find the button, retrieve its text, and check that the text value is 'Logout'
 assert ...
 
 driver.quit()
