@@ -16,7 +16,7 @@ driver.get("https://around-v1.en.practicum-services.com/")
 driver.find_element(...)...
 
 # Insert the link to the picture in the Link field, using the avatar_url variable
-avatar_url = "https://code.s3.yandex.net/qa-automation-engineer/python/files/avatarSelenium.png"
+avatar_url = "https://practicum-content.s3.us-west-1.amazonaws.com/new-markets/qa-sprint-7/avatarSelenium.png"
 driver.find_element(...)....
 
 # Save the new picture
