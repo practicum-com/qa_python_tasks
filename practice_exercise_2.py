@@ -40,13 +40,13 @@ assert ...
 # Guardar la cantidad de tarjetas antes de eliminar
 cards_before = len(...)
 
-# Delete the card
+# Eliminar la tarjeta
 driver.find_element(...)...
 
-# Wait for the title of the most recent card to become equal to title_before
+# Esperar a que el título de la tarjeta más reciente sea igual a title_before
 WebDriverWait(...).until(...)
 
-# Check that there is one less card now 
+# Comprobar que ahora hay una tarjeta menos
 cards_after = len(...)
 assert ...
 
