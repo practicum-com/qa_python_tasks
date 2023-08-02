@@ -4,27 +4,27 @@ from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 
 driver = webdriver.Chrome()
-driver.get("https://around-v1.en.practicum-services.com/")
+driver.get("https://around-v1.es.practicum-services.com/")
 
-# Find the Email field and fill it in
+# Buscar el campo Correo electrónico y rellenarlo
 ...
 
-# Find the Password field and fill it in
+# Buscar el campo Contraseña y rellenarlo
 ...
 
-# Find the Login button and click on it
+# Buscar el botón Iniciar sesión y hacer clic en él
 ...
 
-# Add an explicit wait for the page to load
+# Agregar una espera explícita para que se cargue la página
 ...
 
-# Find the footer
+# Buscar el pie de página
 element = ...
 
-# Scroll the footer into view
+# Desplazar el pie de página a la vista
 driver.execute_script(...)
 
-# Check that the footer contains the string 'Around'
+# Comprobar que el pie de página contiene el string 'Around'
 assert ...
 
 driver.quit()
