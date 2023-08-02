@@ -3,15 +3,15 @@ from selenium.webdriver.common.by import By
 
 driver = webdriver.Chrome()
 
-driver.get("https://around-v1.en.practicum-services.com/")
+driver.get("https://around-v1.es.practicum-services.com/")
 
-# Find elements
+# Buscar elementos
 email = driver...
 password = driver...
 
-# Test the placeholder attribute for each element
+# Probar el atributo placeholder para cada elemento
 assert ...
 assert ...
 
-# Close the browser
+# Cerrar el navegador
 driver...
