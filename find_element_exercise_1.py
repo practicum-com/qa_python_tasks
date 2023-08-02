@@ -3,10 +3,10 @@ from selenium import webdriver
 
 driver = webdriver.Chrome()
 
-driver.get("https://around-v1.en.practicum-services.com/")
+driver.get("https://around-v1.es.practicum-services.com/")
 
-# Find the title
+# Buscar el título
 driver...
 
-# Close the browser
+# Cerrar el navegador
 driver...
