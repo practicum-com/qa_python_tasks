@@ -4,27 +4,27 @@ from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 
 driver = webdriver.Chrome()
-driver.get("https://around-v1.en.practicum-services.com/")
+driver.get("https://around-v1.es.practicum-services.com/")
 
-# Log in
+# Iniciar sesión
 ...
 
-# Add an explicit wait for the feed to load
+# Agregar una espera explícita para que se cargue la página
 ...
 
-# Click on the profile picture
+# Hacer clic en la foto de perfil
 driver.find_element(...)...
 
-# Insert the link to the picture in the Link field, using the avatar_url variable
+# Insertar el enlace a la foto en el campo Enlace utilizando la variable avatar_url
 avatar_url = "https://practicum-content.s3.us-west-1.amazonaws.com/new-markets/qa-sprint-7/avatarSelenium.png"
 driver.find_element(...)....
 
-# Save the new picture
+# Guardar la nueva foto
 driver.find_element(...)...
 
-# Save the value of the style attribute for the profile picture element to the style variable
+# Guardar el valor del atributo de estilo para el elemento de foto de perfil en la variable style
 style = driver.find_element(...)...
-# Check that style contains the link to the profile picture
+# Comprobar que style contiene el enlace a la foto de perfil
 assert ...
 
 driver.quit()
