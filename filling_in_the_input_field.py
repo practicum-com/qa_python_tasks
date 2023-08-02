@@ -4,21 +4,21 @@ from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 
 driver = webdriver.Chrome()
-driver.get("https://around-v1.en.practicum-services.com/")
+driver.get("https://around-v1.es.practicum-services.com/")
 
-# Find the Email field and fill it in
+# Buscar el campo Correo electrónico y rellenarlo
 driver.find_element(...)...
 
-# Find the Password field and fill it in
+# Buscar el campo Contraseña y rellenarlo
 driver.find_element(...)...
 
-# Find the Login button and click on it
+# Buscar el botón Iniciar sesión y hacer clic en él
 driver.find_element(...)...
 
-# Add an explicit wait for the page to load
+# Agregar una espera explícita para que se cargue la página
 WebDriverWait(driver, 3)...
 
-# Check that the current URL is 'https://around-v1.en.practicum-services.com/'
+# Comprobar que la URL actual es 'https://around-v1.es.practicum-services.com/'
 ...
 
 driver.quit()
