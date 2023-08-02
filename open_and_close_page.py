@@ -3,11 +3,11 @@ from selenium import webdriver
 driver = webdriver.Chrome()
 driver.maximize_window()
 
-# Open the test stand page
+# Abrir la página del banco de pruebas
 driver...
 
-# Check that /signin was added to the URL
+# Comprobar que /signin se agrega a la URL
 assert ...
 
-# Close the browser
+# Cerrar el navegador
 driver...
