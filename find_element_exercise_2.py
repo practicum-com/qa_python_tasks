@@ -3,13 +3,13 @@ from selenium.webdriver.common.by import By
 
 driver = webdriver.Chrome()
 
-driver.get("https://around-v1.en.practicum-services.com/")
+driver.get("https://around-v1.es.practicum-services.com/")
 
-# Find all elements
+# Encontrar todos los elementos
 elements = driver...
 
-# Check that the number of elements found is greater than 1 by using len()
+# Comprobar que el número de elementos encontrados es mayor que 1 usando len()
 ...
 
-# Close the browser
+# Cerrar el navegador
 driver...
