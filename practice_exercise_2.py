@@ -6,38 +6,38 @@ from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 
 driver = webdriver.Chrome()
-driver.get("https://around-v1.en.practicum-services.com/")
+driver.get("https://around-v1.es.practicum-services.com/")
 
-# Log in
+# Iniciar sesión
 ...
 
-# Add an explicit wait for the page to load
+# Agregar una espera explícita para que se cargue la página
 ...
 
-# Save the title of the most recent card
+# Guardar el título de la tarjeta más reciente
 title_before = ...
 
-# Click on the button that posts a new card
+# Hacer clic en el botón que publica una nueva tarjeta
 driver.find_element(...)...
 
-# Generate the new name of the place and enter it in the Name field
+# Generar el nuevo nombre del lugar e ingresarlo en el campo Nombre
 new_title = ...
 driver.find_element(...)...
 
-# Insert link to the picture in the Link field
+# Insertar el enlace a la imagen en el campo Enlace
 driver.find_element(...)...
 
-# Save the data
+# Guardar los datos
 driver.find_element(...)...
 
-# Wait for the Delete button to appear
+# Esperar a que aparezca el botón Eliminar
 WebDriverWait(...).until(...)
 
-# Check that the card has the correct title
+# Comprobar que la tarjeta tiene el título correcto
 title_after = ...
 assert ...
 
-# Save the number of cards before deleting
+# Guardar la cantidad de tarjetas antes de eliminar
 cards_before = len(...)
 
 # Delete the card
