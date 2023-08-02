@@ -4,15 +4,15 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions
 
 driver = webdriver.Chrome()
-driver.get("https://around-v1.en.practicum-services.com/")
+driver.get("https://around-v1.es.practicum-services.com/")
 
-# Log in
+# Iniciar sesión
 ...
 
-# Add an explicit wait for the feed to load
+# Agregar una espera explícita para que se cargue la página
 ...
 
-# Find the card and scroll it into view
+# Buscar la tarjeta y desplazarla a la vista
 ...
 
 driver.quit()
