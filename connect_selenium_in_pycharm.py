@@ -1,11 +1,11 @@
 from selenium import webdriver
 import time
 
-# Initialize the driver
+# Inicializar el controlador
 driver = webdriver.Chrome()
 
-# Add a wait
+# Agregar una espera
 time.sleep(5)
 
-# Close the browser
+# Cerrar el navegador
 driver.quit()
