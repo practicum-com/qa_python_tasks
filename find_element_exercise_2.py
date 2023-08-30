@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 
 driver = webdriver.Chrome()
 
-driver.get("https://around-v1.es.practicum-services.com/")
+driver.get("https://around-v1.nm.tripleten-services.com/signin?lng=es")
 
 # Encontrar todos los elementos
 elements = driver...
