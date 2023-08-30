@@ -4,7 +4,7 @@ from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 
 driver = webdriver.Chrome()
-driver.get("https://around-v1.es.practicum-services.com/")
+driver.get("https://around-v1.nm.tripleten-services.com/signin?lng=es")
 
 # Buscar el campo Correo electrónico y rellenarlo
 ...
